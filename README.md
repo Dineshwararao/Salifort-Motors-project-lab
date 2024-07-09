@@ -15,9 +15,9 @@ Include any visualizations or summary statistics here that help understand the d
 # Modeling and Evaluation
 The project involved several machine learning models to predict component failures:
 
-# Logistic Regression
-# Random Forest Classifier
-# Gradient Boosting Classifier
+Logistic Regression
+Random Forest Classifier
+Gradient Boosting Classifier
 Evaluation metrics used included accuracy, precision, recall, and F1-score. The Random Forest Classifier performed the best with an accuracy of 90%, precision of 85%, and recall of 88%.
 
 # Feature Importance
