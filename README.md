@@ -2,7 +2,7 @@
 This project is part of the Google Advanced Data Analytics Professional Certificate and focuses on predicting employee turnover using machine learning techniques such as logistic regression, Decision Trees, Random Forest, and XGBoost.
 
 #Capstone Project URL:
-Google Advanced Data Analytics Capstone Project
+(Google Advanced Data Analytics Capstone Project)[https://github.com/Dineshwararao/Salifort-Motors-project-lab/blob/main/Salifort%20Motors%20project%20lab.ipynb]
 
 ##Business Problem
 Salifort Motors is experiencing a high rate of employee turnover, leading to increased costs in recruitment, training, and upskilling. The goal is to predict which employees are likely to leave the company, allowing leadership to address the root causes and reduce turnover.
