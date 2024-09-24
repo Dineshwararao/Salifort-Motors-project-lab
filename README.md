@@ -1,7 +1,7 @@
-### Predicting Employee Turnover
+# Predicting Employee Turnover
 This project is part of the Google Advanced Data Analytics Professional Certificate and focuses on predicting employee turnover using machine learning techniques such as logistic regression, Decision Trees, Random Forest, and XGBoost.
 
-# Capstone Project URL:
+## Capstone Project URL:
 [https://github.com/Dineshwararao/Salifort-Motors-project-lab/blob/main/Salifort%20Motors%20project%20lab.ipynb]
 
 ## Business Problem
@@ -10,16 +10,16 @@ Salifort Motors is experiencing a high rate of employee turnover, leading to inc
 ## Data Overview
 The dataset used for this project, sourced from Kaggle, includes data on approximately 12,000 employees and 10 features per employee. The features cover key aspects such as:
 
-# Satisfaction Level
-# Last Evaluation Score
-# Number of Projects
-# Average Monthly Working Hours
-# Tenure at the Company
-# Work Accident Indicator
-# Promotion in Last 5 Years
-# Department
-# Salary Level
-# Turnover Status (whether the employee stayed or left)
+### Satisfaction Level
+### Last Evaluation Score
+### Number of Projects
+### Average Monthly Working Hours
+### Tenure at the Company
+### Work Accident Indicator
+### Promotion in Last 5 Years
+### Department
+### Salary Level
+### Turnover Status (whether the employee stayed or left)
 
 ## Feature Engineering
 Feature engineering was applied to derive more predictive insights from the data. The most critical features identified for turnover prediction include:
