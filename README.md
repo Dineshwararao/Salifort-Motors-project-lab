@@ -1,28 +1,62 @@
-# Predictive Maintenance for Salifort Motors
-### Project Overview
-This project aims to develop a predictive maintenance model for Salifort Motors using historical vehicle sensor data. The model identifies potential failures before they occur, ensuring timely maintenance and reducing downtime. The analysis utilized data from 2015 to 2020, achieving high accuracy in predicting component failures.
+###Predicting Employee Turnover
+This project is part of the Google Advanced Data Analytics Professional Certificate and focuses on predicting employee turnover using machine learning techniques such as logistic regression, Decision Trees, Random Forest, and XGBoost.
 
-### Business Understanding
-Salifort Motors faces significant costs due to unplanned vehicle downtime and repairs. The stakeholders, including the maintenance department and fleet managers, need a reliable system to predict when a vehicle component is likely to fail. Implementing predictive maintenance can reduce repair costs, increase vehicle availability, and improve overall operational efficiency.
+#Capstone Project URL:
+Google Advanced Data Analytics Capstone Project
 
-### Data Understanding
-The dataset used for this project includes vehicle sensor data from Salifort Motors' fleet collected between 2015 and 2020. It consists of various features such as engine temperature, oil pressure, vibration levels, and mileage. One limitation of the data is the presence of missing values in some sensor readings, which were handled during the preprocessing stage.
+##Business Problem
+Salifort Motors is experiencing a high rate of employee turnover, leading to increased costs in recruitment, training, and upskilling. The goal is to predict which employees are likely to leave the company, allowing leadership to address the root causes and reduce turnover.
 
-### Exploratory Data Analysis
-Include any visualizations or summary statistics here that help understand the data. For example, you might include histograms, scatter plots, or correlation matrices. Below is an example placeholder for EDA:
+##Data Overview
+The dataset used for this project, sourced from Kaggle, includes data on approximately 12,000 employees and 10 features per employee. The features cover key aspects such as:
 
+#Satisfaction Level
+#Last Evaluation Score
+#Number of Projects
+#Average Monthly Working Hours
+#Tenure at the Company
+#Work Accident Indicator
+#Promotion in Last 5 Years
+#Department
+#Salary Level
+#Turnover Status (whether the employee stayed or left)
 
-### Modeling and Evaluation
-The project involved several machine learning models to predict component failures:
+##Feature Engineering
+Feature engineering was applied to derive more predictive insights from the data. The most critical features identified for turnover prediction include:
 
-Logistic Regression
-Random Forest Classifier
-Gradient Boosting Classifier
-Evaluation metrics used included accuracy, precision, recall, and F1-score. The Random Forest Classifier performed the best with an accuracy of 90%, precision of 85%, and recall of 88%.
+#Number of projects an employee worked on.
+#Tenure at the company.
+#Last evaluation score.
+#Whether the employee is overworked (working over 175 hours per month).
+#Experience of a work accident.
+#Salary level.
 
-### Feature Importance
-Show which features are most important in your model. This can be done using bar charts or other visual aids. 
+##Modeling Approach
+Various machine learning models were tested to predict employee turnover:
 
+#Logistic Regression
+#Decision Tree
+#Random Forest
+#XGBoost
 
-### Conclusion
-The predictive maintenance model developed in this project provides actionable insights for the maintenance team at Salifort Motors. By implementing this model, Salifort Motors can anticipate component failures and schedule maintenance activities proactively, reducing downtime and maintenance costs. Future work includes incorporating real-time sensor data and exploring additional machine learning techniques to further enhance the model's performance.
+The XGBoost model with hyperparameter tuning and feature engineering provided the best results in terms of precision, recall, F1-score, and overall accuracy.
+
+##Key Predictive Features
+#Number of projects
+#Tenure
+#Last evaluation score
+#Average working hours
+#Work accident experience
+#Salary level
+
+##Model Evaluation
+The performance of the XGBoost model was evaluated using the test set, and the following metrics were recorded:
+
+#Precision: 90.1%
+#Recall: 87.8%
+#F1 Score: 89.0%
+#Accuracy: 96.4%
+#AUC: 97.0%
+
+##Conclusion
+The XGBoost model effectively predicts employee turnover, providing key insights into which employees are most likely to leave. By focusing on the top predictive features such as the number of projects, tenure, and last evaluation score, Salifort Motors can proactively address employee dissatisfaction and reduce turnover, leading to better retention and overall cost savings.
